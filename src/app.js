@@ -9,7 +9,7 @@ const manejadorErrores = require('./middlewares/manejadorErrores');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://hipolite-sport-6gjmn71d6-epis.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
 }));

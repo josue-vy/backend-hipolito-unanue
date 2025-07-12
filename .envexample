@@ -1,0 +1,3 @@
+//PUERTO=5000
+//MONGO_ATLAS_URI=mongodb+srv://litjosue20:12345@cluster0.min6x.mongodb.net/dbfutbol?retryWrites=true&w=majority
+//JWT_SECRETO=josue

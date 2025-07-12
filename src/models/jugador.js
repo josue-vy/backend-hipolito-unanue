@@ -11,6 +11,11 @@ const esquemaJugador = new mongoose.Schema({
     partidosGanados: { type: Number, default: 0 },
     partidosPerdidos: { type: Number, default: 0 },
     fecha: { type: Date, default: Date.now },
+    equipo: { 
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Equipo',
+        required: false 
+    },
 });
 
 module.exports = mongoose.model('Jugador', esquemaJugador, 'jugadores');
